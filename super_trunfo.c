@@ -72,7 +72,9 @@ int main()
     //Informações da primeira carta utilizando printf
     printf("Primeira Carta\nEstado: %s\nCódigo do estado: %s\nNome da Cidade: %s\nPopulação: %i\nÁrea: %f\nPIB: %f\nNumero de pontos turisticos: %i\n", estado1, codigo1, cidade1, populacao1, area1, pib1, qtdPtsTuristicos1);
    
+    printf("\n\n");
+
     //Informações da segunda carta utilizando printf
-    printf("Segunda Carta\nEstado: %s\nCódigo: %s\nNome da Cidade: %s\nPopulação: %i\nÁrea: %f\nPIB: %f\nNumero de pontos turisticos: %i", estado2, codigo2, cidade2, populacao2, area2, pib2, qtdPtsTuristicos2);
+    printf("Segunda Carta\nEstado: %s\nCódigo: %s\nNome da Cidade: %s\nPopulação: %i\nÁrea: %f\nPIB: %f\nNumero de pontos turisticos: %i\n\n", estado2, codigo2, cidade2, populacao2, area2, pib2, qtdPtsTuristicos2);
     return 0;
 }
